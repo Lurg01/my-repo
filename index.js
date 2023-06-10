@@ -2,7 +2,7 @@ document.getElementById('loginForm').addEventListener('submit', function(event) 
     event.preventDefault();
     var loginButton = document.getElementById('loginButton');
     var loader = document.getElementById('loader');
-    loginButton.innerHTML = 'Logging In';
+    loginButton.innerHTML = '';
     loader.classList.add('loader');
     loginButton.classList.add('loading');
     setTimeout(function() {
